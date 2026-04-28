@@ -1,5 +1,5 @@
 allprojects {
-  group = "com.github.pedroSG94"
+  group = "com.github.tukez"
   version = "2.7.2"
 
   plugins.withType<PublishingPlugin> {
@@ -8,7 +8,7 @@ allprojects {
         pom {
           name = "RootEncoder"
           description = "A stream encoder to push video/audio to media servers"
-          url = "https://github.com/pedroSG94/RootEncoder"
+          url = "https://github.com/tukez/RootEncoder"
           licenses {
             license {
               name = "Apache-2.0"
